@@ -4,9 +4,9 @@
 *
 *  TITLE:       OBJECTS.C
 *
-*  VERSION:     1.86
+*  VERSION:     1.88
 *
-*  DATE:        29 May 2020
+*  DATE:        18 Aug 2020
 *
 * THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 * ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED
@@ -66,6 +66,7 @@ WOBJ_TYPE_DESC g_TypePartition = { L"Partition", 0x5227054a, ObjectTypeMemoryPar
 WOBJ_TYPE_DESC g_TypePcwObject = { L"PcwObject", 0xe3f801c3, ObjectTypePcwObject, IDI_ICON_PCWOBJECT, IDS_DESC_PCWOBJECT };
 WOBJ_TYPE_DESC g_TypePowerRequest = { L"PowerRequest", 0xb5a1b3ea, ObjectTypePowerRequest, IDI_ICON_POWERREQUEST, IDS_DESC_POWERREQUEST };
 WOBJ_TYPE_DESC g_TypeProcess = { OBTYPE_NAME_PROCESS, 0x70fcfc4f, ObjectTypeProcess, IDI_ICON_PROCESS, IDS_DESC_PROCESS };
+WOBJ_TYPE_DESC g_TypeProcessStateChange = { L"ProcessStateChange", 0x6fd57b92, ObjectTypeProcessStateChange, IDI_ICON_PROCESSSTATECHANGE, IDS_DESC_PROCESSSTATECHANGE };
 WOBJ_TYPE_DESC g_TypeProfile = { L"Profile", 0xfe82aac9, ObjectTypeProfile, IDI_ICON_PROFILE, IDS_DESC_PROFILE };
 WOBJ_TYPE_DESC g_TypePsSiloContextNonPaged = { L"PsSiloContextNonPaged", 0xe2c391fb, ObjectTypePsSiloContextNonPaged, IDI_ICON_PSSILOCONTEXT, IDS_DESC_PSSILOCONTEXTNP };
 WOBJ_TYPE_DESC g_TypePsSiloContextPaged = { L"PsSiloContextPaged", 0x8f91f0a2, ObjectTypePsSiloContextPaged, IDI_ICON_PSSILOCONTEXT, IDS_DESC_PSSILOCONTEXT };
@@ -140,6 +141,7 @@ static WOBJ_TYPE_DESC* gpObjectTypes[] = {
     &g_TypePcwObject,
     &g_TypePowerRequest,
     &g_TypeProcess,
+    &g_TypeProcessStateChange,
     &g_TypeProfile,
     &g_TypePsSiloContextNonPaged,
     &g_TypePsSiloContextPaged,

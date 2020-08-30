@@ -4,9 +4,9 @@
 *
 *  TITLE:       EXTRASCALLBACKS.C
 *
-*  VERSION:     1.87
+*  VERSION:     1.88
 *
-*  DATE:        15 July 2020
+*  DATE:        15 Aug 2020
 *
 * THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 * ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED
@@ -187,7 +187,7 @@ OBEX_CALLBACK_DISPATCH_ENTRY g_CallbacksDispatchTable[] = {
         &g_SystemCallbacks.IopFsNotifyChangeQueueHead
     },
     {
-        0, NULL,
+        0, L"IoFileSystemType",
         QueryIopFsListsCallbacks, DumpIoFileSystemCallbacks, NULL,
         NULL
     },

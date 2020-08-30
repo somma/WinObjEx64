@@ -730,6 +730,7 @@ VOID TestLicenseCache()
 }
 
 WCHAR* g_szMapDlls[] = {
+    L"\\??\\C:\\makeexe\\temp\\win7pc\\test.dll",
     L"\\systemroot\\system32\\winnsi.dll",
     L"\\systemroot\\system32\\sxssrv.dll",
     L"\\systemroot\\system32\\sppwinob.dll",
@@ -869,7 +870,6 @@ VOID PreHashTypes()
 {
     ObManagerTest();
 }
-
 
 VOID TestCall()
 {
