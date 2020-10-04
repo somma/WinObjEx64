@@ -880,23 +880,23 @@ VOID TestStart(
 )
 {
     TestCall();
-    TestSectionImage();
-    TestShadowDirectory();
+    //TestSectionImage();
+    //TestShadowDirectory();
     //TestPsObjectSecurity();
     //TestLicenseCache();
-    TestApiSetResolve();
+    //TestApiSetResolve();
     //TestDesktop();
-    TestApiPort();
-    TestDebugObject();
-    TestMailslot();
-    TestPartition();
-    TestPrivateNamespace();
-    TestIoCompletion();
-    TestTimer();
-    TestTransaction();
-    TestWinsta();
+    //TestApiPort();
+    //TestDebugObject();
+    //TestMailslot();
+    //TestPartition();
+    //TestPrivateNamespace();
+    //TestIoCompletion();
+    //TestTimer();
+    //TestTransaction();
+    //TestWinsta();
     //TestThread();
-    //PreHashTypes();
+    PreHashTypes();
     //TestJob();
 }
 

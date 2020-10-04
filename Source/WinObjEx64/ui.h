@@ -6,7 +6,7 @@
 *
 *  VERSION:     1.88
 *
-*  DATE:        15 Aug 2020
+*  DATE:        04 Oct 2020
 *
 *  Common header file for the user interface.
 *
@@ -58,7 +58,7 @@ typedef HWND(WINAPI *pfnHtmlHelpW)(
 #define PROGRAM_MAJOR_VERSION       1
 #define PROGRAM_MINOR_VERSION       8
 #define PROGRAM_REVISION_NUMBER     8
-#define PROGRAM_BUILD_NUMBER        2008
+#define PROGRAM_BUILD_NUMBER        2010
 
 #ifdef _USE_OWN_DRIVER
 #define PROGRAM_NAME            L"Windows Object Explorer 64-bit (Non-public version)"

@@ -6,7 +6,7 @@
 *
 *  VERSION:     1.88
 *
-*  DATE:        18 Aug 2020
+*  DATE:        04 Oct 2020
 *
 *  Header file for internal Windows object types handling.
 *
@@ -82,7 +82,8 @@ typedef enum _WOBJ_OBJECT_TYPE {
     ObjectTypeDmaAdapter = 55,
     ObjectTypeDmaDomain = 56,
     ObjectTypeProcessStateChange = 57,
-    ObjectTypeUnknown = 58,
+    ObjectTypeThreadStateChange = 58,
+    ObjectTypeUnknown = 59,
     ObjectTypeActivationObject = ObjectTypeUnknown,
     ObjectTypeActivityReference = ObjectTypeUnknown,
     ObjectTypeCoreMessaging = ObjectTypeUnknown,
@@ -199,6 +200,9 @@ typedef struct _WOBJ_TYPE_DESC {
 
 #define IDI_ICON_PROCESSSTATECHANGE UNUSED_IDI_ICON
 #define IDS_DESC_PROCESSSTATECHANGE UNUSED_IDS_DESC
+
+#define IDI_ICON_THREADSTATECHANGE UNUSED_IDI_ICON
+#define IDS_DESC_THREADSTATECHANGE UNUSED_IDS_DESC
 
 extern WOBJ_TYPE_DESC g_TypeUnknown;
 extern WOBJ_TYPE_DESC g_TypeSymbolicLink;
